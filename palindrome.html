@@ -7,12 +7,30 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Palindrome Checker</h1>
-  <p>a word, phrase, or sequence that reads the same backward as forward(nurses run).</p>
-  <form>
+  <h1>Palindrome Checker Game!</h1>
+  <p>a word, phrase, or sequence that reads the same backward as forward(Example: nurses run).</p>
+  <div id='score'>
+  <h5>player 1 score:</h5>
+  <span id='p1s'>0</span>
+  <h5> pleyer 2 score:</h5>
+   <span id='p2s'>0</span>
+  </div>
+  <form id='form1'>
+    <h4> player 1</h4>
    <input name='pc'>
-    <button> submit</button>
+    <button id='but'> submit</button>
   </form>
-   <h3></h3>
+   <h3 id='p1'></h3>
+  
+
+  <form id='form2'>
+      <h4> player 2</h4>
+   <input name='pc2'>
+    <button id='but2'> submit</button>
+  </form>
+  <h3 id='p2'></h3>
+  
+  <h1 id='winner'></h1>
+  <button id='reset' hidden> Reset</button>
 </body>
 </html>
