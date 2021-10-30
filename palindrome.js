@@ -126,7 +126,7 @@ form2.addEventListener('submit',(e)=>{
   else{
     console.log('no')
     form2.elements.pc2.value=''
-      result.innerText=`${user} is not a palindrome!`
+      result2.innerText=`${user} is not a palindrome!`
       but2.disabled=true
     but.disabled=false
     win()
